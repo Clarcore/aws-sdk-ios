@@ -5,7 +5,7 @@
 ### New features
 
 - **Amazon S3**
-  - The AWSS3 SDK now uses [virtual-host style addressing](https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html#virtual-hosted-style-access) for DNS-compliant bucket names. (See [issue #1535](https://github.com/aws-amplify/aws-sdk-ios/issues/1535), and [PR #XXXX](https://github.com/aws-amplify/aws-sdk-ios/pulls/1535)). This does not affect AWSS3TransferUtility, which already uses virtual-host style addressing in its operations.
+  - The AWSS3 SDK now uses [virtual-host style addressing](https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html#virtual-hosted-style-access) for DNS-compliant bucket names. (See [issue #1535](https://github.com/aws-amplify/aws-sdk-ios/issues/1535), and [PR #2996](https://github.com/aws-amplify/aws-sdk-ios/pulls/2996)). This does not affect AWSS3TransferUtility, which already uses virtual-host style addressing in its operations.
 
 ## 2.15.3
 

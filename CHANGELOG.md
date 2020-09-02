@@ -7,6 +7,13 @@
 - **Amazon S3**
   - The AWSS3 SDK now uses [virtual-host style addressing](https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html#virtual-hosted-style-access) for DNS-compliant bucket names. (See [issue #1535](https://github.com/aws-amplify/aws-sdk-ios/issues/1535), and [PR #2996](https://github.com/aws-amplify/aws-sdk-ios/pulls/2996)). This does not affect AWSS3TransferUtility, which already uses virtual-host style addressing in its operations.
 
+### Misc. Updates
+
+- Model updates for the following services
+  - **Breaking Change** Amazon EC2 - reverted a change that was mistakenly released in the previous model update
+  - **Breaking Change** Amazon Elastic Load Balancing - updated to API version `2015-12-01`
+  - **Breaking Change** Amazon Simple Email Service - updated to API version `2019-09-27`
+
 ## 2.15.3
 
 ### Misc. Updates
